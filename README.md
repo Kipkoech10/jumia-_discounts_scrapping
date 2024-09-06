@@ -23,8 +23,8 @@ The scraped data is stored in a csv file, analyzed using Exploratory Data Analys
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/ecommerce-discount-analyzer.git
-   cd ecommerce-discount-analyzer
+   git clone (https://github.com/Kipkoech10/jumia-_discounts_scrapping.git)
+   cd jumia-_discounts_scrapping
    ```
 
 2. Create and activate a virtual environment:
@@ -37,79 +37,10 @@ The scraped data is stored in a csv file, analyzed using Exploratory Data Analys
    ```
    pip install -r requirements.txt
    ```
-
-4. Set up the database:
-   [Include instructions for setting up and configuring your chosen database]
-
-5. Configure the web scraper:
-   [Provide instructions for setting up the scraper, including any necessary authentication or API keys]
-
-6. Run the scraper:
-   ```
-   python scraper.py
+4. Perform EDA:
    ```
 
-7. Perform EDA:
-   ```
-   python eda.py
-   ```
 
-8. Launch the web interface:
-   ```
-   python app.py
-   ```
-
-## Project Structure
-
-```
-ecommerce-discount-analyzer/
-│
-├── scraper/
-│   ├── __init__.py
-│   ├── amazon_scraper.py
-│   └── jumia_scraper.py
-│
-├── database/
-│   ├── __init__.py
-│   └── db_operations.py
-│
-├── analysis/
-│   ├── __init__.py
-│   └── eda.py
-│
-├── web_interface/
-│   ├── __init__.py
-│   ├── app.py
-│   └── templates/
-│
-├── airflow/
-│   └── dags/
-│       └── scraper_dag.py
-│
-├── requirements.txt
-├── config.py
-└── README.md
-```
-
-## Usage
-
-1. Run the scraper to collect data:
-   ```
-   python -m scraper.amazon_scraper  # or jumia_scraper
-   ```
-
-2. Perform Exploratory Data Analysis:
-   ```
-   python -m analysis.eda
-   ```
-
-3. Start the web interface:
-   ```
-   python -m web_interface.app
-   ```
-
-4. (Optional) Set up Apache Airflow for automated scraping:
-   [Provide instructions for setting up and running Airflow]
 
 ## Contributing
 
@@ -122,15 +53,11 @@ Contributions to this project are welcome! Please follow these steps:
 5. Push to the branch (`git push origin feature/your-feature-name`)
 6. Create a new Pull Request
 
-## License
-
-[Choose an appropriate license for your project, e.g., MIT, GPL, etc.]
-
 ## Contact
 
-[Your Name] - [Your Email]
+[brian] - [briankipskirui@gmail.com]
 
-Project Link: https://github.com/yourusername/ecommerce-discount-analyzer
+Project Link:https://github.com/Kipkoech10/jumia-_discounts_scrapping.git
 
 ## Acknowledgements
 
@@ -139,4 +66,3 @@ Project Link: https://github.com/yourusername/ecommerce-discount-analyzer
 - [Scrapy Documentation](https://docs.scrapy.org/en/latest/)
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
 - [NumPy Documentation](https://numpy.org/doc/)
-- [Apache Airflow Documentation](https://airflow.apache.org/docs/)
